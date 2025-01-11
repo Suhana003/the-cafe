@@ -10,7 +10,7 @@ body{
 .container{
     height: 600px;
     width:400px;
-    background-image: url("/../images/login2.jpg");
+    background-image: url("/../login2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
