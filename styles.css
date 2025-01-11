@@ -1,0 +1,331 @@
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+    background-color: #fdf5e6;
+}
+.nav{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    
+}
+@media screen and (max-width: 768px){
+    .nav{
+        flex-direction: row;
+        align-items: center;
+}
+.center{
+    align-items: center;
+    font-size: 16px;
+    margin: 16px 0px;
+    
+
+}
+.container{
+    padding: 10px;
+    
+}
+
+} 
+
+.navi{
+    width: 24.99999%
+
+}
+.top{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    
+}
+
+a{
+   padding: 8px 16px;
+    color: antiquewhite;
+    justify-content: space-around;
+    text-decoration: none;
+    gap: 50px;
+    font-family: inconsolata,sans-serif;
+    font-size: 15px;
+}
+.navi .button{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+
+}
+.navi .button:hover{
+    
+    
+    background-color: white;
+    color:black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+}
+.navi:first-child{
+    margin-left: 8px 16pxpx;
+}
+
+.text{
+    position: absolute;
+    font-size: 90px;
+    font-family: inconsolata,sans-serif;
+    color:inherit;
+    transform:translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    -ms-transform: (-50%,-50%);
+}
+.image{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/images/coffeehouse.jpg") ;
+    filter: grayscale(50%);
+    display: block;
+    min-height: 75%;
+}
+img{
+    position: relative;
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    
+}
+   
+    
+
+.bottomtext{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 12px 24px;
+    font-family: inconsolata,sans-serif;
+    text-align: center;
+   color: white;
+}
+.tag{
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    color: #ccc;
+}
+.bottomright{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 12px 24px;
+    font-family: inconsolata,sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.tagright{
+    color: white;
+}
+.whole{
+    filter: grayscale(75%);
+    font-size: 18px;
+    color: #000;
+    background-color: #fdf5e6;
+
+}
+.center{
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-size:18px ;
+    font-family:"Segoe UI",Arial,sans-serif ;
+    letter-spacing: 4px;
+}
+.wide{
+    background-color: #000;
+    color: white;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+   
+}
+.about{
+    
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
+    margin: 18px 0px;
+    font-family:inconsolata,sans-serif ;
+    color: #ccc;
+}
+.leftbar{
+    border-left: 6px solid #ccc;
+    color:#000;
+    background-color: #f1f1f1;
+    padding: 0.01em 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.margin-top{
+    margin-top: 16px;
+}
+.about-center{
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 64px;
+    font-size:18px ;
+    font-family:"Segoe UI",Arial,sans-serif ;
+    letter-spacing: 4px;
+}
+.menu-item{
+    padding: 8px 16px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.input{
+    display: block;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.lastline{
+    color: #000;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-size: 18px;
+    font-family:inconsolata,sans-serif ;
+}
+.lastline a{
+    color: #000;
+    text-decoration: underline;
+    font-size: 18px;
+    font-family:inconsolata,sans-serif
+
+}
+.lastline a:hover{
+    color: green;
+}
+.lastline-class{
+    text-align: center;
+}
+.tab-container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .tablink {
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    border: none;
+    border-bottom: 3px solid transparent;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  .tablink:hover {
+    background-color: #ddd;
+  }
+  .tablink.active {
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    border: none;
+    border-bottom: 3px solid transparent;
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    font-family: inconsolata,sans-serif
+    ;
+    
+  }
+  .tablink.active:hover {
+    background-color: #ddd;
+  }
+  .tablink:target {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  /* Content Styles */
+  .menu {
+    display: none;
+    padding: 20px;
+  }
+  .menu.active {
+    display: block;
+    padding: 48px 16px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  h5 {
+    margin: 10px 0;
+  }
+  p {
+    color: #555;
+    margin: 18px 0;
+  }
+  .button{
+    background-color: #000;
+    color: white;
+    height: auto;
+    
+  }
+  #popup {
+    display: none; /* Hidden initially */
+    position: fixed; /* Stays in place even when scrolling */
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts centering */
+    background-color: #ffffff; /* Light background for better readability */
+    color: #333; /* Dark text color for contrast */
+    padding: 20px 30px; /* Adds space inside the popup */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    text-align: center; /* Centers text inside */
+    z-index: 1000; /* Ensures it appears above other elements */
+    font-family: Arial, sans-serif; /* Clean, professional font */
+    font-size: 18px; /* Adjusts text size */
+    max-width: 90%; /* Prevents it from being too wide */
+    animation: fadeIn 0.5s ease-out; 
+}
+/* Blurred background when popup is active */
+.blur {
+    filter: blur(5px); /* Adjust blur level */
+    pointer-events: none; /* Prevent interaction with blurred content */
+    user-select: none; /* Prevent text selection */
+}
+#main-content{
+    z-index:1;
+}

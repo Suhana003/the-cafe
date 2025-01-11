@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+   
+    width:100%
+}
+.container{
+    height: 600px;
+    width:400px;
+    background-image: url("/../images/login2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+.div{
+    color: white;
+}
+.inp{
+    background-color:rgb(190, 172, 151);
+    border-radius: 8px;
+}
+button{
+    background-color:rgb(190, 172, 151); 
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+    
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+<body>
+    <div id="popup">Login Successfully!</div>
+<div id="main-content">
+    <!-- menu bar -->
+    <div class="top">
+        <div class="nav">
+            <div class="navi">
+                <a href="" class="button">HOME</a>
+            </div>
+            <div class="navi">
+                <a href="#about"class="button">ABOUT</a>
+            </div>
+            <div class="navi">
+                <a href="#menu"class="button">MENU</a>
+            </div>
+            <div class="navi">
+                <a href="#where"class="button">WHERE</a>
+            </div>
+        </div>
+    </div>
+    <!-- banner image -->
+    <div class="image">
+        <img src="images/coffeehouse.jpg" width="100%" height="500">
+    
+    <div class="bottomtext">
+        <span class="tag">Open from 6am to 5pm</span>
+    </div>
+    <span class="text">
+   
+        <p style="color: white;">the</p>
+        <p style="color:white">Cafe</p>
+        
+    </span>
+   
+    <div class="bottomright">
+        <span class="tagright">15 Adr street, 5015</span>
+    </div>
+</div>
+<!-- about section -->
+<div class="whole">
+<div class="container" id="about">
+    <div class="about" style="max-width:700px">
+        <h5 class="center"><span class="wide">ABOUT THE CAFE</span></h5>
+        <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+        <div class="leftbar">
+            <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+            <p>Chef, Coffeeist and Owner: Liam Brown</p>
+          </div>
+          <img src="/images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="margin-top">
+          <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+          <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+    </div>
+</div>
+<!-- menu section -->
+<div class="container" id="menu">
+    <div class="about" style="max-width:700px">
+        <h5 class="about-center"><span class="wide">THE MENU</span></h5> 
+        <div class="tab-container">
+            <button class="tablink active" onclick="openMenu(event, 'Eat')">Eat</button>
+            <button class="tablink active" onclick="openMenu(event, 'Drinks')">Drinks</button>
+</div>
+
+<div id="Eat" class="menu active">
+  <h5 style="font-family: inconsolata,sans-serif; font-size:18px">Bread Basket</h5>
+  <p class="p-menu">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+
+  <h5 style="font-family: inconsolata,sans-serif; font-size:18px">Honey Almond Granola with Fruits</h5>
+  <p class="p-menu">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+
+  <h5 style="font-family: inconsolata,sans-serif; font-size:18px">Belgian Waffle</h5>
+  <p class="p-menu">Vanilla flavored batter with malted flour 7.50</p><br>
+
+  <h5 style="font-family: inconsolata,sans-serif; font-size:18px">Scrambled eggs</h5>
+  <p class="p-menu">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+
+  <h5 style="font-family: inconsolata,sans-serif; font-size:18px">Blueberry Pancakes</h5>
+  <p class="p-menu">With syrup, butter and lots of berries 8.50</p><br>
+</div>
+
+<div id="Drinks" class="menu">
+  <h5 style="font-family: inconsolata,sans-serif; font-size:18px">Coffee</h5>
+  <p class="p-menu">Regular coffee 2.50</p><br>
+
+  <h5 style="font-family: inconsolata,sans-serif; font-size:18px">Chocolato</h5>
+  <p class="p-menu">Chocolate espresso with milk 4.50</p><br>
+
+  <h5 style="font-family: inconsolata,sans-serif; font-size:18px">Corretto</h5>
+  <p class="p-menu">Whiskey and coffee 5.00</p><br>
+
+  <h5 style="font-family: inconsolata,sans-serif; font-size:18px">Iced tea</h5>
+  <p class="p-menu">Hot tea, except not hot 3.00</p><br>
+
+  <h5 style="font-family: inconsolata,sans-serif; font-size:18px">Soda</h5>
+  <p class="p-menu">Coke, Sprite, Fanta, etc. 2.50</p><br>
+</div>
+
+
+
+
+
+
+          
+        <img src="\images\coffeehouse2.jpg" style="width:100%;max-width:1000px" class="margin-top"> 
+    </div>
+</div>
+
+<div class="container" id="where">
+    <div class="about" style="max-width:700px">
+        <h5 class="about-center"><span class="wide">WHERE TO FIND US</span></h5>
+        <p style="font-size: 18px;">Find us at some address at some place.</p>
+        <img src="\images\map.jpg" style="width:100%;max-width:1000px" class="margin-top"> 
+        <p><span class="tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="javascript:void(0);">
+        <p><input class="input" type="text" placeholder="Name" required id="Name"></p>
+        <p><input class="input" type="number" placeholder="How many people" required id="People"></p>
+        <p><input class="input" type="datetime-local" placeholder="Date and time" required id="date" value="2020-11-16T20:00"></p>
+        <p><input class="input" type="text" placeholder="Message \ Special requirements" required id="Message"></p>
+        <p><button class="button" type="submit" id="bton">SEND MESSAGE</button></p>
+      </form>
+      <footer class="lastline">
+        <p class="lastline-class">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="lastline-hover">w3.css</a></p>
+      </footer>
+      </div>
+</div>
+</div>
+<script src="cafe.js"></script>
+</body>
+
+
+    
+</body>
+</html>
