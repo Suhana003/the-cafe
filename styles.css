@@ -103,7 +103,7 @@ a{
     position: relative;
     background-position: center;
     background-size: cover;
-    background-image: url("/images/coffeehouse.jpg") ;
+    background-image: url("/coffeehouse.jpg") ;
     filter: grayscale(50%);
     display: block;
     min-height: 75%;
